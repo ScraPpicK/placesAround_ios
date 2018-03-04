@@ -70,16 +70,11 @@
     // Configure the cell...
     Place *placeForCell = [self.places objectAtIndex:indexPath.row];
     cell.placeName.text = placeForCell.name;
-    [cell.placeImageView sd_setImageWithURL:placeForCell.image];
+    [cell.placeImageView sd_setImageWithURL:placeForCell.image placeholderImage:[UIImage imageNamed:@"PlaceholderImage"]];
     cell.placeAddress.text = placeForCell.address;
     cell.placeCoordinates.text = placeForCell.location;
     
     return cell;
-}
-
-- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    
 }
 
 #pragma mark - Table view delegate

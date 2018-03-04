@@ -62,9 +62,11 @@
             break;
             
         case kCLAuthorizationStatusDenied:
+            [self showLocationDeniedMessage];
             break;
             
         case kCLAuthorizationStatusRestricted:
+            [self showLocationDeniedMessage];
             break;
             
         case kCLAuthorizationStatusAuthorizedWhenInUse:
@@ -78,6 +80,16 @@
         default:
             break;
     }
+}
+
+- (void)showLocationDeniedMessage
+{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Error" message:@"To proceed we need to know your location." preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action){
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }];
+    [alert addAction:cancelAction];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 #pragma mark - Location manager delegate

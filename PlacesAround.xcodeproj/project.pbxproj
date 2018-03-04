@@ -20,9 +20,9 @@
 		DD4A19BD2049582D008639DC /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4A19BC2049582D008639DC /* Place.m */; };
 		DD4A19C020496B06008639DC /* PlaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4A19BF20496B06008639DC /* PlaceTableViewController.m */; };
 		DDABF3F5204A9E4400876D08 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF3F4204A9E4400876D08 /* DownloadManager.m */; };
-		DDABF3F8204ABCAF00876D08 /* NSString_stripHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF3F7204ABCAF00876D08 /* NSString_stripHtml.m */; };
 		DDABF3FB204AD1EB00876D08 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF3FA204AD1EB00876D08 /* MapViewController.m */; };
 		DDABF46B204C002F00876D08 /* CoordinatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF46A204C002F00876D08 /* CoordinatesViewController.m */; };
+		DDABF46E204C19B200876D08 /* NSString_stripHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF46D204C19B200876D08 /* NSString_stripHtml.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,12 +69,12 @@
 		DD4A19BF20496B06008639DC /* PlaceTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceTableViewController.m; sourceTree = "<group>"; };
 		DDABF3F3204A9E4400876D08 /* DownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
 		DDABF3F4204A9E4400876D08 /* DownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
-		DDABF3F6204ABCAF00876D08 /* NSString_stripHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSString_stripHtml.h; path = "../../../1202238-a4df58fde4161e9507df69e85745dc53b0e8dac6/NSString_stripHtml.h"; sourceTree = "<group>"; };
-		DDABF3F7204ABCAF00876D08 /* NSString_stripHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSString_stripHtml.m; path = "../../../1202238-a4df58fde4161e9507df69e85745dc53b0e8dac6/NSString_stripHtml.m"; sourceTree = "<group>"; };
 		DDABF3F9204AD1EB00876D08 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		DDABF3FA204AD1EB00876D08 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		DDABF469204C002F00876D08 /* CoordinatesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoordinatesViewController.h; sourceTree = "<group>"; };
 		DDABF46A204C002F00876D08 /* CoordinatesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoordinatesViewController.m; sourceTree = "<group>"; };
+		DDABF46C204C19B200876D08 /* NSString_stripHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_stripHtml.h; sourceTree = "<group>"; };
+		DDABF46D204C19B200876D08 /* NSString_stripHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_stripHtml.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,8 +213,8 @@
 		DDABF3F2204A9E2200876D08 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				DDABF3F6204ABCAF00876D08 /* NSString_stripHtml.h */,
-				DDABF3F7204ABCAF00876D08 /* NSString_stripHtml.m */,
+				DDABF46C204C19B200876D08 /* NSString_stripHtml.h */,
+				DDABF46D204C19B200876D08 /* NSString_stripHtml.m */,
 				DDABF3F3204A9E4400876D08 /* DownloadManager.h */,
 				DDABF3F4204A9E4400876D08 /* DownloadManager.m */,
 			);
@@ -409,7 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDABF3F8204ABCAF00876D08 /* NSString_stripHtml.m in Sources */,
+				DDABF46E204C19B200876D08 /* NSString_stripHtml.m in Sources */,
 				DD4A19BD2049582D008639DC /* Place.m in Sources */,
 				DD4A198E204952BD008639DC /* main.m in Sources */,
 				DDABF3FB204AD1EB00876D08 /* MapViewController.m in Sources */,
