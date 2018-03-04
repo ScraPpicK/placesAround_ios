@@ -61,8 +61,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aMh-ST-3fX">
-                                <rect key="frame" x="133" y="276" width="97" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aMh-ST-3fX">
+                                <rect key="frame" x="115" y="276" width="145" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -84,8 +84,8 @@
                             <constraint firstItem="7We-2v-aIa" firstAttribute="top" secondItem="FZn-IP-f5T" secondAttribute="top" constant="154" id="N7t-7W-GZD"/>
                             <constraint firstItem="aMh-ST-3fX" firstAttribute="top" secondItem="7We-2v-aIa" secondAttribute="bottom" constant="17" id="YpI-4r-ZwA"/>
                             <constraint firstItem="7We-2v-aIa" firstAttribute="leading" secondItem="FZn-IP-f5T" secondAttribute="leading" constant="96" id="fp0-rR-HGq"/>
-                            <constraint firstItem="aMh-ST-3fX" firstAttribute="leading" secondItem="FZn-IP-f5T" secondAttribute="leading" constant="133" id="lN9-HP-gm8"/>
-                            <constraint firstItem="FZn-IP-f5T" firstAttribute="trailing" secondItem="aMh-ST-3fX" secondAttribute="trailing" constant="145" id="lnC-Wy-cev"/>
+                            <constraint firstItem="aMh-ST-3fX" firstAttribute="leading" secondItem="FZn-IP-f5T" secondAttribute="leading" constant="115" id="lN9-HP-gm8"/>
+                            <constraint firstItem="FZn-IP-f5T" firstAttribute="trailing" secondItem="aMh-ST-3fX" secondAttribute="trailing" constant="115" id="lnC-Wy-cev"/>
                             <constraint firstItem="obS-aM-l7L" firstAttribute="leading" secondItem="FZn-IP-f5T" secondAttribute="leading" constant="73" id="rWn-h9-qRf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FZn-IP-f5T"/>
