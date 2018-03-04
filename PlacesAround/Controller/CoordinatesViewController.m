@@ -30,7 +30,7 @@
         self.locationManager = [[CLLocationManager alloc] init];
         self.locationManager.distanceFilter = kCLDistanceFilterNone;
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
-//        self.coordinatesTextField.placeholder = @"52.531,13.3843";
+        self.coordinatesTextField.placeholder = @"52.531,13.3843";
     }
     
     return self;

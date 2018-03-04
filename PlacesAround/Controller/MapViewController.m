@@ -27,6 +27,7 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
+    [super viewDidAppear:animated];
     NSArray *coordinates = [self.location componentsSeparatedByString:@","];
     CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(
                                                                    ((NSString *)coordinates[0]).doubleValue,

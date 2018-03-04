@@ -105,9 +105,11 @@
             
         case couldNotDownloadData:
             errorMessage = @"Oops, we could connect to the server, check your internet connection or try later.";
+            break;
             
         case couldNotParseData:
             errorMessage = @"Oops, we couldn`t find places for you. Try another coordinates please.";
+            break;
             
         default:
             break;
